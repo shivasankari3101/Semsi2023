@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000;
 }
 
 a {
@@ -458,7 +458,7 @@ section {
 }
 
 .hero h2 {
-  color: #444444;
+  color: #000;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -809,7 +809,7 @@ section {
 }
 
 .services .service-box h3 {
-  color: #444444;
+  color: #000;
   font-weight: 700;
 }
 
@@ -967,7 +967,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
-  color: #444444;
+  color: #000;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -991,7 +991,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #000;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -1051,7 +1051,7 @@ section {
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: #000;
   text-align: left;
 }
 
@@ -1090,7 +1090,7 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #000;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
@@ -1345,7 +1345,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #000;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1482,7 +1482,7 @@ section {
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: #5e5e5e;
+  color: #000;
 }
 
 .team .member:hover {
@@ -1592,7 +1592,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #000;
   background: #fafbff;
   padding: 30px;
 }
@@ -1823,7 +1823,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  color: #000;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -1963,7 +1963,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -2413,6 +2413,14 @@ section {
   font-size: 2.5rem;
 }
 
+.hero h2 {
+  font-size: 1.3rem;
+}
+
+.hero h2.date{
+  font-weight: bold;
+}
+
 .values p, .about p{
   text-align: justify;
 }
@@ -2429,35 +2437,84 @@ section {
 
 .themes .count-box{
   border-radius: 5px;
-  min-height: 200px;
+  min-height: 130px;
   transition: 0.3s ease-in;
   cursor: pointer;
-}
-
-.themes .count-box:hover{
-  border-bottom:0px;
-  border-right: 0px;
+  padding: 10px;
+  transition: 0.5s;
 }
 
 .themes .count-box p{
   font-size: 1.3rem;
-  color: #111;
+  color: #000;
+  text-align: center;
 }
 
+.committee .row h2{
+  color: #8a2827 ;
+}
+
+.committee .row>div:nth-child(3) h4{
+  display: inline;
+}
 
 .team .member .member-info span{
   color: #8a2827;
 }
 
+.call_for_papers .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.call_for_papers .btn-get-started{
+  margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgb(65 84 241 / 40%);
+}
 .footer .footer_about{
   margin-left: 10%;
 }
 
 
-@media screen and (min-width:1334px){
+/* @media screen and (min-width:1334px){
   .header .container-fluid{
-    margin-left: 20px;
+    margin-left: 10px;
   }
+} */
+
+@media screen and (min-width:992px){
+  .imp_dates .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imp_dates table{
+    width: 50%;
+  }
+
+  .venue .map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .venue .map>*{
+    width: 50%;
+  }
+
+  .venue .map>h5{
+    padding: 5%;
+    font-style: italic;
+  }
+  
 }
 
 
