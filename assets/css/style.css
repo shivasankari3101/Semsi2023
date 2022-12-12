@@ -347,7 +347,7 @@ section {
   color: #fff;
 }
 
-@media (max-width: 1333px) {
+@media (max-width: 1184px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -2508,7 +2508,7 @@ section {
 }
 
 
-@media screen and (min-width:1334px){
+@media screen and (min-width:1185px){
   .header .container-fluid{
     margin-left: 10px;
   }
@@ -2548,7 +2548,7 @@ section {
   }
 }
 
-@media screen and (min-width:1334px) and (max-width:1400px){
+@media screen and (min-width:1185px) and (max-width:1400px){
   .hide{
     display:none;
   }
